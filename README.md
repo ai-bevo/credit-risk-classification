@@ -2,7 +2,7 @@
 Module # 20 - Credit Risk Classification
 
 <p align="center">
-<img src="Credit_Risk/Images/ML_Credit_Risk.png" alt="Lame Maching Learning Icon from PowerPoint" width="500" height="300">
+<img src="Credit_Risk/Images/ML_Credit_Risk.png" alt="Lame Maching Learning Icon from PowerPoint" width="936" height="335">
 </p>
 
 ## Overview of the Analysis
