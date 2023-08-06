@@ -2,7 +2,7 @@
 Module # 20 - Credit Risk Classification
 
 <p align="center">
-<img src="Images/ML_Credit_Risk.png" alt="Austin skyline" width="500" height="300">
+<img src="Credit_Risk/Images/ML_Credit_Risk.png" alt="Lame Maching Learning Icon from PowerPoint" width="500" height="300">
 </p>
 
 ## Overview of the Analysis
@@ -19,7 +19,7 @@ The data used for the analysis is the loan application data. The data includes t
 
 * Provide basic information about the variables you were trying to predict.
 
-The target data is the loan status which is either low risk/Healthy Loan (0) or a High Risk loan (1). 
+The target data is the loan status which is either low risk/Healthy Loan `0` or a High Risk loan `1`. 
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
 
@@ -43,14 +43,14 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-    The logistic regression model predicts the overll accuracy of Healthy Loans (0) and High Risk Loans (1) at 99%. Individually the precicion is 100% and 85% for Healthy Loans (0) and High Risk Loans (1) respectively. The recall is 99% and 91% for Healthy Loans (0) and High Risk Loans (1) respectively. The F1 score is 100% and 88% for Healthy Loans (0) and High Risk Loans (1) respectively. The precision, recall, and F1 score for Healthy Loans (0) is higher than High Risk Loans (1) which means the model is better at predicting Healthy Loans (0) than High Risk Loans (1). The model is better at predicting Healthy Loans (0) than High Risk Loans (1) because the testing data is imbalanced with 18,765 Healthy Loans (0) compared to only 619 High Risk Loans (1).
+    The logistic regression model predicts the overll accuracy of Healthy Loans `0` and High Risk Loans `1` at 99%. Individually the precicion is 100% and 85% for Healthy Loans `0` and High Risk Loans `1` respectively. The recall is 99% and 91% for Healthy Loans `0` and High Risk Loans `1` respectively. The F1 score is 100% and 88% for Healthy Loans `0` and High Risk Loans `1` respectively. The precision, recall, and F1 score for Healthy Loans `0` is higher than High Risk Loans `1` which means the model is better at predicting Healthy Loans `0` than High Risk Loans `1`. The model is better at predicting Healthy Loans `0` than High Risk Loans `1` because the testing data is imbalanced with 18,765 Healthy Loans `0` compared to only 619 High Risk Loans `1`.
 
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
-    The oversampled data model predicts the Healthy Loans (0) and High Risk Loans (1) with 99% accuracy, which is the same as the original model. The precision for the High Risk Loans (1) is 84%, which is lower than the original model. The recall for the High Risk Loans (1) is 99%, which is higher than the original mode at 91%. The F1 score for the High Risk Loans (1) is 91%, which is higher than the original model at 88%
+    The oversampled data model predicts the Healthy Loans `0` and High Risk Loans `1` with 99% accuracy, which is the same as the original model. The precision for the High Risk Loans `1` is 84%, which is lower than the original model. The recall for the High Risk Loans `1` is 99%, which is higher than the original mode at 91%. The F1 score for the High Risk Loans `1` is 91%, which is higher than the original model at 88%
 
 
 ## Summary
@@ -58,9 +58,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
 
-The original model and the oversampled data model both predict the Healthy Loans (0) and High Risk Loans (1) with 99% accuracy. The oversampled data model has a lower precision for the High Risk Loans (1) at 84% compared to the original model at 85%. The oversampled data model has a higher recall for the High Risk Loans (1) at 99% compared to the original model at 91%. The oversampled data model has a higher F1 score for the High Risk Loans (1) at 91% compared to the original model at 88%. The oversampled data model is better at predicting High Risk Loans (1) than the original model because the oversampled data model has a higher recall and F1 score for High Risk Loans (1).
+The original model and the oversampled data model both predict the Healthy Loans `0` and High Risk Loans `1` with 99% accuracy. The oversampled data model has a lower precision for the High Risk Loans `1` at 84% compared to the original model at 85%. The oversampled data model has a higher recall for the High Risk Loans `1` at 99% compared to the original model at 91%. The oversampled data model has a higher F1 score for the High Risk Loans `1` at 91% compared to the original model at 88%. The oversampled data model is better at predicting High Risk Loans `1` than the original model because the oversampled data model has a higher recall and F1 score for High Risk Loans `1`.
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-Overall, the oversampled data model is able to maintain the same accuracy as the original model for predicting Healthy Loans (0) and slighly improve the accuracy for predicting High Risk Loans (1). From a business perspective, the oversampled data model is better at predicting High Risk Loans (1) which is the most important metric for the credit risk analysis. Therefore, the oversampled data model is the best model to use for predicting credit risk.
+Overall, the oversampled data model is able to maintain the same accuracy as the original model for predicting Healthy Loans `0` and slighly improve the accuracy for predicting High Risk Loans `1`. From a business perspective, the oversampled data model is better at predicting High Risk Loans `1` which is the most important metric for the credit risk analysis. Therefore, the oversampled data model is the best model to use for predicting credit risk.
 
